@@ -1,4 +1,5 @@
 import Footer from '../../components/patterns/Footer'
+import Head from '@/components/head/index'
 import Link from '../../components/Link'
 import { theme } from '../../theme/theme';
 import { Image, Box, Text, Icon, Input, Button } from '../../theme/components';
@@ -8,6 +9,8 @@ const SIDE_IMAGE_URL = 'https://fakeimg.pl/2878x1640'
 
 function SideImage() {
   return (
+    <>    
+    <Head title="Alura Cases" />
     <Box
       styleSheet={{
         paddingHorizontal: {
@@ -90,6 +93,7 @@ function SideImage() {
         </Box>
       </Box>
     </Box>
+    </>
   )
 }
 
