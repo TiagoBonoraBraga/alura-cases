@@ -1,4 +1,4 @@
-import Link from "../src/components/Link";
+import Link from "@/components/Link";
 
 function Title({children, as}){
 

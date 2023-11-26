@@ -1,5 +1,6 @@
-import Link from "../src/components/Link"
-export default function Faq() {
+import Link from "@/components/Link";
+
+export default function Error404() {
     return (
         <div>
             <h1>Você c perdeu.... Volte para Home no link abaixo ERROR 404</h1>
