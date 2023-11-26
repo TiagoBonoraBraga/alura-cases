@@ -1,10 +1,10 @@
 import GlobalStyle from '@/theme/GlobalStyle'
 
-function Myapp({ Componet, pageProps}) {
+function Myapp({ Component, pageProps}) {
     return (
     <>
     <GlobalStyle />
-    <Componet {...pageProps} />
+    <Component {...pageProps} />
     </>
     )
 }
